@@ -1,0 +1,4 @@
+.background-circles {
+    background-image: radial-gradient(circle, rgb(142, 149, 158) 2px, #e8e8e8 2px);
+    background-position: center center;
+}
