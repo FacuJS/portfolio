@@ -1,5 +1,6 @@
 import React from "react"; 
 // import './styles.css';
+import { SocialLinks } from "./SocialLinks.jsx";
 import { ChevronRightIcon } from '@heroicons/react/24/solid'
 
 function Hero () {
@@ -17,6 +18,10 @@ function Hero () {
                     <ChevronRightIcon className="pl-3 h-7 w-7 group-hover:rotate-90 duration-300"/>
             </button>
 
+        </div>
+
+        <div className="">
+         <SocialLinks /> 
         </div>
     </div>
     )
