@@ -6,7 +6,7 @@ import { ChevronRightIcon } from '@heroicons/react/24/solid'
 function Hero () {
 {/* <div class="absolute inset-0 -z-10 h-full w-full bg-white [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#63e_100%)]"></div> */}
     return (
-        <div className="mx-auto flex flex-col items-center justify-center w-screen h-screen pt-10 [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#63e_100%)]">
+        <div name="inicio" className="mx-auto flex flex-col items-center justify-center w-screen h-screen pt-10 [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#63e_100%)]">
            <div className="flex flex-col justify-center items-center">
             <h1 className="text-3xl sm:text-6xl font-bold">Soy Facundo</h1>
             <span className="py-4 text-4xl max-w-md">Fronted Developer</span>

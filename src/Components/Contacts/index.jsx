@@ -25,7 +25,7 @@ function Contacts() {
             name='massage' 
             placeholder='Escribe tu mensaje'
             rows='10' 
-            className='p-2 bg-transparent border-2 rounded-md text-white'></textarea>
+            className='p-2 bg-[#fff] border-2 rounded-md text-white'></textarea>
          
             <button className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300'>
               ¡Hablemos!

@@ -30,13 +30,15 @@ const links = [
         <>
         <nav className="flex px-4 justify-between text-white bg-white w-full h-20 items-center fixed">
             
-        <div class="flex items-center gap-4">
+        <Link to="inicio" smooth duration={500}>
+        <div class="flex items-center gap-4 cursor-pointer">
             <img class="w-10 h-10 rounded-full" src={PhotoPresentation} alt="" />
-            <div class="text-black">
+            <div class="text-black cursor-pointer">
                 <div>Facundo Córdoba</div>
                 <div class="text-sm text-gray-500 dark:text-gray-400">Portafolio</div>
             </div>
         </div>
+        </Link>
 
             <ul className="hidden md:flex">
 
