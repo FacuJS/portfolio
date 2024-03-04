@@ -1,5 +1,4 @@
 import React from 'react'
-import './styles.css'
 import { FaGithub, FaLinkedin } from "react-icons/fa"
 import { HiOutlineMail } from "react-icons/hi"
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -51,7 +50,7 @@ const SocialLinks = () => {
   return (
     <div className='flex mt-10'>
         <ul className='flex'>
-          {links.map(({id, child,href, style, download}) => (
+          {links.map(({id, child,href, download}) => (
 
             <li key={id}  
             className='flex justify-center items-center px-3 text-gray-600 cursor-pointer icon-shadow'>

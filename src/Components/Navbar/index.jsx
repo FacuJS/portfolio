@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import {Link} from 'react-scroll'
 import { Bars3Icon } from '@heroicons/react/24/solid'
 import { XMarkIcon } from '@heroicons/react/24/solid'
+import PhotoPresentation from '../../assets/photo-presentation.jpg';
 
 function Navbar () {
 const [nav, setNav] = useState(false);
@@ -27,10 +28,16 @@ const links = [
 
     return (
         <>
-        <nav className="flex px-4 justify-between text-white bg-black w-full h-20 items-center fixed">
-            <h1 className="text-2xl font-montserrat ml-2">
-                Facundo
-            </h1>
+        <nav className="flex px-4 justify-between text-white bg-white w-full h-20 items-center fixed">
+            
+        <div class="flex items-center gap-4">
+            <img class="w-10 h-10 rounded-full" src={PhotoPresentation} alt="" />
+            <div class="text-black">
+                <div>Facundo Córdoba</div>
+                <div class="text-sm text-gray-500 dark:text-gray-400">Portafolio</div>
+            </div>
+        </div>
+
             <ul className="hidden md:flex">
 
                 {links.map(({id, link}) => (
